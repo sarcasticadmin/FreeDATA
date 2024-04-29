@@ -3,6 +3,7 @@ name = "FreeDATA"
 authors = [{name = "David Rowe", email = "temp@temp.com"},]
 description = "free and open-source TNC with a GUI for codec2 with the idea of sending messages and data from one network based application"
 readme = "README.md"
+version = "0.0.1"
 # dynamic metadat: https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html#dynamic-metadata
 #dynamic = ["version"]
 
