@@ -7,8 +7,6 @@ version = "0.0.1"
 # dynamic metadat: https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html#dynamic-metadata
 #dynamic = ["version"]
 
-[project.scripts]
-
 [build-system]
 #requires = ["setuptools", "wheel"]
 requires = ["hatchling"]
