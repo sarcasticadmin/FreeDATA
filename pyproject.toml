@@ -17,5 +17,5 @@ build-backend = "hatchling.build"
 [tool.hatch.build.targets.wheel]
 packages = ["modem"]
 
-[project.entry-points."flask.commands"]
+[project.scripts]
 freedata-server = "modem.server"
