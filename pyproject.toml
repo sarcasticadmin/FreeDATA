@@ -16,4 +16,4 @@ build-backend = "hatchling.build"
 packages = ["modem"]
 
 [project.scripts]
-freedata-server = "modem.server"
+freedata-server = "modem.server:__main__"
