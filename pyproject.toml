@@ -1,0 +1,17 @@
+[project]
+name = "FreeDATA"
+authors = [{name = "David Rowe", email = "temp@temp.com"},]
+description = "free and open-source TNC with a GUI for codec2 with the idea of sending messages and data from one network based application"
+readme = "README.md"
+# dynamic metadat: https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html#dynamic-metadata
+#dynamic = ["version"]
+
+[project.scripts]
+
+[build-system]
+#requires = ["setuptools", "wheel"]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.entry-points."flask.commands"]
+freedata-server = "modem.server"
